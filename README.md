@@ -1,30 +1,37 @@
-Dobry wieczór,
+This project is a sample of what I have
+an opportunity to learn during graphical course
+hosted by my University.
 
-Przesyłam zaległą pracownię z bąbelkami.
+![](https://i.ibb.co/x62WCT5/Photo1.png)
 
-Od prezentacji rano udało mi się dołączyć element przezroczystości
-bąbelków. Nie wiem jednak dlaczego w jednym poziomym pasie (nieco
-nad początkowym bąbelkiem) efekt transparentności powoduje powstawanie
-artefaktów.
+BubbleGame is simple arcade game which utilizes
+OpenGL. It's code is based on https://learnopengl.com.
+It that rewards your fast reflexes. You have to
+avoid contact with constantly rising bubbles inside
+aquarium and reach the great yellow bubble in order to
+go to the next level (which basically teleports 
+you to the next leve, with move obstacles).
 
-Ogólna obsługa gry:
+![](https://i.ibb.co/2qFBdRG/Photo2.png)
 
-Grę kompilujemy za pomocą komendy:
-$ make
+This project shows how Phong light model can be 
+applied in 3D space. Also light is gradually diminishing
+based on Beer-Lambert law. There is a directional light
+as well as 20 randomly selected bubbles that wmit their
+own light. Effects may vary based on parameters of aquarium
+size and constants used.
 
-Przy wywołaniu podajemy dwa argumenty, pierwszy to wielkość
-planszy (>= 5) a drugi reprezentuje losowe ziarno do programu.
+![](https://i.ibb.co/tZ9FzPB/Photo3.png)
 
-na przykład:
-$ ./Gra 8 10
+Beside this our bubble is fully operable. You can use
+two different cameras to controll it. Spheres are generated
+using simple glm:: functions, which have proven to be
+very helpful.
 
-- Kierowanie WASD
-- Przycisk M uwalnia kursor muszy (można wtedy zmienić rozmiar okna)
-- Przycisk C zmienia kamerę na zawieszoną pod sufitem.
-- Przycisk H (jak również dotarcie do złotej bombelki)
-powoduje zwiększenie liczby przeszkód
+![](https://i.ibb.co/8jn55fW/Photo4.png)
 
-Kod w większości bazowany z tutorialu learnopenGL.
+Backgroud uses textures, to symulate feeling
+of being under water.
 
-Pozdrawiam,
-Marcin Knapik
+Be carefull! If you touch bubbles you get
+teleported right to the start!
