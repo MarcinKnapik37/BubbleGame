@@ -1,9 +1,6 @@
 This project is a sample of what I have
 an opportunity to learn during graphical course
 hosted by my University.
-
-![](https://i.ibb.co/x62WCT5/Photo1.png)
-
 BubbleGame is simple arcade game which utilizes
 OpenGL. It's code is based on https://learnopengl.com.
 It that rewards your fast reflexes. You have to
